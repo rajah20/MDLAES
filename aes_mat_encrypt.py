@@ -66,7 +66,7 @@ def hybridSys():
     # print('res_data_str', res_data_str)
     
     #Save the encrypted data into an image for easy retrieval doing decryption
-    res = img.encrypt_text_in_image("Image01.jpg", res_data_str, "encryptions/lsb/")
+    res = img.encrypt_text_in_image("Image01.jpg", res_data_str, "encryptions/")
 
     end_time = time.time()
 
